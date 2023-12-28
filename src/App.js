@@ -9,7 +9,7 @@ function App() {
     <div>
       <NavBar />
       <Routes>
-        <Route index path="/" element={<ProductCard />} />
+        <Route path="/" element={<ProductCard />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
     </div>

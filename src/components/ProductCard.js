@@ -12,7 +12,7 @@ const ProductCard = () => {
   };
 
   return (
-    <div className="p-2 grid grid-cols-4">
+    <div className="p-2 grid grid-cols-2 ml-44">
       {itemList?.map((item) => {
         return (
           <div
